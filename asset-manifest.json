@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.3a6c2b6c.css",
-    "main.js": "/myportfolio/static/js/main.415355bd.js",
+    "main.css": "/myportfolio/static/css/main.42e5f2ad.css",
+    "main.js": "/myportfolio/static/js/main.fdba5df2.js",
     "static/js/453.acca0757.chunk.js": "/myportfolio/static/js/453.acca0757.chunk.js",
+    "static/media/kasa.png": "/myportfolio/static/media/kasa.a32df3602109f3d437f9.png",
+    "static/media/sophiebluel.png": "/myportfolio/static/media/sophiebluel.10edd830c3ef1437e382.png",
+    "static/media/argent-bank-acceuil.png": "/myportfolio/static/media/argent-bank-acceuil.02e0051fcb292e82e5bf.png",
     "static/media/sass.webp": "/myportfolio/static/media/sass.ae1ac87ff636406c2885.webp",
     "static/media/html.png": "/myportfolio/static/media/html.e1a5193dd83182c83ef2.png",
     "index.html": "/myportfolio/index.html",
-    "main.3a6c2b6c.css.map": "/myportfolio/static/css/main.3a6c2b6c.css.map",
-    "main.415355bd.js.map": "/myportfolio/static/js/main.415355bd.js.map",
+    "main.42e5f2ad.css.map": "/myportfolio/static/css/main.42e5f2ad.css.map",
+    "main.fdba5df2.js.map": "/myportfolio/static/js/main.fdba5df2.js.map",
     "453.acca0757.chunk.js.map": "/myportfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a6c2b6c.css",
-    "static/js/main.415355bd.js"
+    "static/css/main.42e5f2ad.css",
+    "static/js/main.fdba5df2.js"
   ]
 }
