@@ -11,7 +11,7 @@ import redux from "../assets/skills/redux.png";
 
 const Skills = () => {
   return (
-    <div className="logo-container">
+    <div className="skills-container">
       <img src={css} alt="logo css" />
       <img src={html} alt="logo html" />
       <img src={react} alt="logo react" />

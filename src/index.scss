@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@400;500;700&family=Shrikhand&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap");
 // variables
 $main-color: #442138;
 $navbar-color: #7a4768;
 $small-screen: 768px;
-// $background-gradient: linear-gradient;
+
 // mixin
 @mixin respond-to($breakpoint) {
   @media screen and (max-width: $breakpoint) {
@@ -17,6 +17,7 @@ $small-screen: 768px;
 @import "./components/footer.scss";
 @import "./pages/home.scss";
 @import "./pages/skills.scss";
+@import "./pages/contact.scss";
 
 a {
   text-decoration: none;
