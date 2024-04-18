@@ -1,75 +1,115 @@
-.header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  padding: 90px 50px;
-  background-color: rgb(238 232 232);
-  color: black;
-  font-family: Platypi;
-  // a {
-  //   text-decoration: none;
-  //   .logo {
-  //     font-size: 24px;
-  //     font-weight: bold;
-  //   }
-  // }
-  // .logo:hover {
-  //   text-shadow: #f0f0f0 1px 0 10px;
-  //   font-size: 26px;
-  // }
-  .nav {
-    align-items: center;
-    border: solid;
-    border-color: #fff;
-    border-radius: 30px;
-    border-width: 3px;
-    box-shadow: 1px 1px 10px 10px #e2e2e74f;
-    background-color: #dcb9b9;
-    display: flex;
-    flex-direction: row;
-    height: 5rem;
-    justify-content: center;
-    text-shadow: #f0f0f0 1px 0 10px;
-    width: 70%;
-    padding: 0 20px 0 20px;
-    @media (max-width: 720px) {
-      width: 90vw;
-    }
-    ul {
-      list-style: none;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      gap: 30px;
-      padding: 0px;
-      margin: 0px;
-      font-size: 20px;
-      font-weight: 800;
-      li {
-        a {
-          text-decoration: none;
-          color: black;
-          transition: color 0.3s ease;
-          font-size: 25px;
-          @media (max-width: 425px) {
-            font-size: 12px;
-          }
-        }
-        .active {
-          // background-color: white;
-          text-shadow: #f0f0f0 2px 4px 4px;
+// .header {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   gap: 10px;
+//   padding: 90px 50px;
+//   background-color: rgb(238 232 232);
+//   color: black;
+//   font-family: Platypi;
+//   // a {
+//   //   text-decoration: none;
+//   //   .logo {
+//   //     font-size: 24px;
+//   //     font-weight: bold;
+//   //   }
+//   // }
+//   // .logo:hover {
+//   //   text-shadow: #f0f0f0 1px 0 10px;
+//   //   font-size: 26px;
+//   // }
+//   .nav {
+//     align-items: center;
+//     border: solid;
+//     border-color: #fff;
+//     border-radius: 30px;
+//     border-width: 3px;
+//     box-shadow: 1px 1px 10px 10px #e2e2e74f;
+//     background-color: #dcb9b9;
+//     display: flex;
+//     flex-direction: row;
+//     height: 5rem;
+//     justify-content: center;
+//     text-shadow: #f0f0f0 1px 0 10px;
+//     width: 70%;
+//     padding: 0 20px 0 20px;
+//     @media (max-width: 720px) {
+//       width: 90vw;
+//     }
+//     ul {
+//       list-style: none;
+//       display: flex;
+//       flex-direction: row;
+//       justify-content: space-between;
+//       align-items: center;
+//       gap: 30px;
+//       padding: 0px;
+//       margin: 0px;
+//       font-size: 20px;
+//       font-weight: 800;
+//       li {
+//         a {
+//           text-decoration: none;
+//           color: black;
+//           transition: color 0.3s ease;
+//           font-size: 25px;
+//           @media (max-width: 425px) {
+//             font-size: 12px;
+//           }
+//         }
+//         .active {
+//           // background-color: white;
+//           text-shadow: #f0f0f0 2px 4px 4px;
 
-          // color: #fff;
-        }
-        li:hover {
-          color: white;
-          // text-shadow: #f0f0f0 1px 0 10px;
-          font-size: 20px;
-        }
-      }
-    }
-  }
+//           // color: #fff;
+//         }
+//         li:hover {
+//           color: white;
+//           // text-shadow: #f0f0f0 1px 0 10px;
+//           font-size: 20px;
+//         }
+//       }
+//     }
+//   }
+// }
+.navbar {
+  position: sticky;
+  font-family: $primary-font;
+}
+.nav-color {
+  background-color: $navbar-color;
+}
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+}
+.navbar .logo {
+  font-family: $primary-font;
+  font-weight: 900;
+  margin: 2.1875rem;
+  font-size: 2.1875rem;
+}
+ul {
+  margin-right: 2.1875rem;
+}
+.navbar-toggler {
+  margin-right: 2.1875rem;
+}
+.navbar-nav > li > a {
+  border-top: 0.1875rem solid $navbar-color;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: $primary-font-color;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
+  // border-top: 0.1875rem solid $font-color;
+  text-shadow: #f0f0f0 2px 4px 4px;
+}
+.navbar-nav > li > a:hover {
+  // text-shadow: #f0f0f0 2px 4px 4px;
+  font-weight: 800;
 }
