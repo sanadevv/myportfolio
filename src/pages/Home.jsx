@@ -1,10 +1,10 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
-import Particles from "react-particles";
+// import Particles from "react-particles";
 const Home = () => {
   return (
     <>
-      <Particles
+      {/* <Particles
         params={{
           particles: {
             number: { value: 30, density: { enable: true, value_area: 900 } },
@@ -17,7 +17,7 @@ const Home = () => {
             },
           },
         }}
-      />
+      /> */}
       <div className="home-container">
         <div className="intro">
           <h1>Front End Web Developper</h1>
