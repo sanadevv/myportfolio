@@ -1,0 +1,8 @@
+[
+  { "id": "1", "imageUrl": "/images/skills/react.png", "text": "React" },
+  { "id": "2", "imageUrl": "./react.png", "text": "React" },
+  { "id": "3", "imageUrl": "./react.png", "text": "React" },
+  { "id": "4", "imageUrl": "./react.png", "text": "React" },
+  { "id": "5", "imageUrl": "./react.png", "text": "React" },
+  { "id": "6", "imageUrl": "./react.png", "text": "React" }
+]

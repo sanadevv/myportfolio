@@ -3,7 +3,7 @@ const projectsData = [
     id: 1,
     title: "Argent Bank",
     description: "A website for a banking institution.",
-    imageUrl: "/argent-bank-acceuil.png",
+    imageUrl: "/images/argent-bank.png",
   },
   {
     id: 2,
