@@ -1,99 +1,129 @@
-import React from "react";
+// import React from "react";
+
 import css from "../assets/skills/css.jpeg";
 import react from "../assets/skills/react.png";
 import html from "../assets/skills/html.webp";
-import figma from "../assets/skills/figma.png";
-import javascript from "../assets/skills/javascript.png";
+// import figma from "../assets/skills/figma.png";
+// import javascript from "../assets/skills/javascript.png";
 import sass from "../assets/skills/sass.webp";
 import reactRouter from "../assets/skills/react-router.png";
-// import vscode from "../assets/skills/vscode.png";
 import redux from "../assets/skills/redux.png";
 
 const Skills = () => {
   return (
-    <main>
-      <div className="skill-container">
-        <h1>Skills</h1>
-        <div className="row">
-          <div class="flip-card col">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src={react} alt="Avatar" />
-              </div>
-              <div class="flip-card-back">
-                <p>REACT</p>
-              </div>
-            </div>
-          </div>
-          <div class="flip-card col">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src={redux} alt="redux" />
-              </div>
-              <div class="flip-card-back">
-                <p>REDUX</p>
+    <main className="container">
+      <h1>My skills</h1>
+      <div className="container text-center">
+        <div className="row ">
+          <div className="col-lg-4 col-md-6">
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <div className="card">
+                    <img src={react} className="card-img-top" alt="react" />
+                  </div>
+                </div>
+                <div className="flip-card-back">
+                  <div className="card">
+                    <div className="card-body">
+                      <p className="card-text">React</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="flip-card col">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src={javascript} alt="Avatar" />
-              </div>
-              <div class="flip-card-back">
-                <p>JS</p>
-              </div>
-            </div>
-          </div>
-          <div class="flip-card col">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src={sass} alt="Avatar" />
-              </div>
-              <div class="flip-card-back">
-                <p>SASS</p>
+          <div className="col-lg-4 col-md-6">
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <div className="card">
+                    <img src={redux} className="card-img-top" alt="react" />
+                  </div>
+                </div>
+                <div className="flip-card-back">
+                  <div className="card">
+                    <div className="card-body">
+                      <p className="card-text">Redux</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="row">
-          <div class="flip-card col">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src={html} alt="Avatar" />
-              </div>
-              <div class="flip-card-back">
-                <p>HTML</p>
-              </div>
-            </div>
-          </div>
-          <div class="flip-card col">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src={reactRouter} alt="Avatar" />
-              </div>
-              <div class="flip-card-back">
-                <p>React router</p>
-              </div>
-            </div>
-          </div>
-          <div class="flip-card col">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src={css} alt="Avatar" />
-              </div>
-              <div class="flip-card-back">
-                <p>CSS</p>
+          <div className="col-lg-4 col-md-6">
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <div className="card">
+                    <img
+                      src={reactRouter}
+                      className="card-img-top"
+                      alt="react"
+                    />
+                  </div>
+                </div>
+                <div className="flip-card-back">
+                  <div className="card">
+                    <div className="card-body">
+                      <p className="card-text">React router</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="flip-card col">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src={figma} alt="Avatar" />
+          <div className="col-lg-4 col-md-6">
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <div className="card">
+                    <img src={sass} className="card-img-top" alt="react" />
+                  </div>
+                </div>
+                <div className="flip-card-back">
+                  <div className="card">
+                    <div className="card-body">
+                      <p className="card-text">Sass</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="flip-card-back">
-                <p>FIGMA</p>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <div className="card">
+                    <img src={css} className="card-img-top" alt="react" />
+                  </div>
+                </div>
+                <div className="flip-card-back">
+                  <div className="card">
+                    <div className="card-body">
+                      <p className="card-text">CSS</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <div className="card">
+                    <img src={html} className="card-img-top" alt="react" />
+                  </div>
+                </div>
+                <div className="flip-card-back">
+                  <div className="card">
+                    <div className="card-body">
+                      <p className="card-text">HTML</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

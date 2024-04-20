@@ -5,9 +5,11 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 function Header() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg nav-color">
+      <nav className="navbar navbar-expand-lg nav-color bg-light">
         <div className="container-fluid">
-          <h1 className="logo">Portfolio</h1>
+          <h1 className="logo">
+            <span className="navbar-brand mb-0 h1">Portfolio</span>
+          </h1>
           <button
             className="navbar-toggler"
             type="button"
@@ -28,7 +30,7 @@ function Header() {
                   aria-current="page"
                   activeclassname="active"
                 >
-                  Home
+                  About
                 </NavLink>
               </li>
               <li className="nav-item">

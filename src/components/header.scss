@@ -77,7 +77,7 @@
   // position: sticky;
   font-family: $primary-font;
   background-color: $primary-backround-color !important;
-  padding: 90px 50px !important;
+  padding: 50px 50px !important;
 }
 .container-fluid {
   align-items: center;
@@ -94,6 +94,15 @@
   text-shadow: #f0f0f0 1px 0 10px;
   width: auto !important;
   padding: 0 20px 0 20px;
+  margin-bottom: 10px !important;
+  @media (max-width: 992px) {
+    width: auto;
+    height: auto;
+    padding: 10px !important;
+    justify-content: space-between;
+    gap: 50px;
+    // flex-wrap: nowrap !important;
+  }
 }
 .nav-color {
   background-color: $navbar-color;
@@ -105,10 +114,12 @@
 .navbar .logo {
   font-family: $primary-font;
   font-weight: 900;
-  margin: 2.1875rem;
-  font-size: 2.1875rem;
+  margin: 2.1875rem !important;
+  font-size: 2.1875rem !important;
+  padding-bottom: 10px !important;
   @media (max-width: 992px) {
-    margin: 1.1875rem;
+    margin: 0.1875rem !important;
+    font-size: 1rem !important;
   }
 }
 ul {
@@ -116,6 +127,9 @@ ul {
 }
 .navbar-toggler {
   margin-right: 2.1875rem;
+  @media (max-width: 992px) {
+    margin-right: 0px;
+  }
 }
 .navbar-nav > li > a {
   border-top: 0.1875rem solid $navbar-color;
