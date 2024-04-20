@@ -1,24 +1,23 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.cb9c4e63.css",
-    "main.js": "/myportfolio/static/js/main.18a0a405.js",
+    "main.js": "/myportfolio/static/js/main.da9420e0.js",
     "static/js/453.acca0757.chunk.js": "/myportfolio/static/js/453.acca0757.chunk.js",
     "static/media/jene-stephaniuk-6UQTHH6hcUo-unsplash.jpg": "/myportfolio/static/media/jene-stephaniuk-6UQTHH6hcUo-unsplash.26e971a3c35e66afb063.jpg",
     "static/media/kasa.png": "/myportfolio/static/media/kasa.a32df3602109f3d437f9.png",
-    "static/media/argent-bank-acceuil.png": "/myportfolio/static/media/argent-bank-acceuil.02e0051fcb292e82e5bf.png",
+    "static/media/argent-bank.png": "/myportfolio/static/media/argent-bank.02e0051fcb292e82e5bf.png",
     "static/media/sophiebluel.png": "/myportfolio/static/media/sophiebluel.a22f44ad3a53312344e2.png",
     "static/media/react-router.png": "/myportfolio/static/media/react-router.3163d95159c78ea2e530.png",
-    "static/media/html.webp": "/myportfolio/static/media/html.09472bc29dde4d23fcef.webp",
     "static/media/css.jpeg": "/myportfolio/static/media/css.bdf9d17153b4cc62155a.jpeg",
     "static/media/sass.webp": "/myportfolio/static/media/sass.ae1ac87ff636406c2885.webp",
     "static/media/react.png": "/myportfolio/static/media/react.ef20e673b9282f8f30fd.png",
     "index.html": "/myportfolio/index.html",
     "main.cb9c4e63.css.map": "/myportfolio/static/css/main.cb9c4e63.css.map",
-    "main.18a0a405.js.map": "/myportfolio/static/js/main.18a0a405.js.map",
+    "main.da9420e0.js.map": "/myportfolio/static/js/main.da9420e0.js.map",
     "453.acca0757.chunk.js.map": "/myportfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb9c4e63.css",
-    "static/js/main.18a0a405.js"
+    "static/js/main.da9420e0.js"
   ]
 }
