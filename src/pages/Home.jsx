@@ -29,7 +29,6 @@ const Home = () => {
             className="typed-text"
             loop
           />
-          {/* <h1>Welcome to my Portfolio</h1> */}
           <p>
             Hello! I'm Sana, a skilled web developer proficient in React, Redux,
             CSS, HTML, and JavaScript. I specialize in creating engaging user

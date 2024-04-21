@@ -24,11 +24,5 @@ html {
   font-family: $primary-font !important;
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
-
-// .container-fluid {
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: space-between;
-// }

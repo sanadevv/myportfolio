@@ -7,7 +7,6 @@
   gap: 4.5rem;
   background-color: $primary-backround-color;
   padding: 100px 20%;
-  // flex-wrap: wrap;
   @media (max-width: 992px) {
     gap: 3rem;
   }
@@ -32,8 +31,6 @@ h1 {
     height: 150px;
   }
 }
-
-/* This container is needed to position the front and back side */
 .flip-card-inner {
   position: relative;
   width: 200px;
@@ -47,19 +44,15 @@ h1 {
     height: 150px;
   }
 }
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
-
-/* Position the front and back side */
 .flip-card-front,
 .flip-card-back {
   position: absolute;
   width: 200px;
   height: 200px;
-  -webkit-backface-visibility: hidden; /* Safari */
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-radius: 50%;
   @media (max-width: 992px) {
@@ -67,8 +60,6 @@ h1 {
     height: 150px;
   }
 }
-
-/* Style the front side (fallback if image is missing) */
 .flip-card-front {
   background-color: #bbb;
   color: black;
@@ -83,8 +74,6 @@ h1 {
     }
   }
 }
-
-/* Style the back side */
 .flip-card-back {
   border-radius: 50%;
   background-color: dodgerblue;
@@ -102,10 +91,6 @@ h1 {
   }
 }
 .skills-container .row {
-  // gap: 5%;
-  // @media (max-width: 992px) {
-  //   gap: 5%;
-  // }
   height: 300px;
 }
 .flip-card .card {
@@ -121,11 +106,9 @@ h1 {
 @keyframes slideIn1 {
   from {
     transform: translateY(50px);
-    // opacity: 0;
   }
   to {
     transform: translateY(0);
-    // opacity: 1;
   }
 }
 .flip-card {
